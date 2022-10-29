@@ -32,10 +32,10 @@ const array = [
 const CarouselItem = ({ item }) => {
   const { head, descpt, extra } = item;
   return (
-    <div className="w-[90%] h-[240px] rounded-md shadow-lg mr-4 overflow-hidden">
+    <div className="w-[85%] h-[240px] rounded-md shadow-lg mr-4 overflow-hidden">
       <img src={Frame_1} alt="" className="w-full h-fit" />
       <div className="p-3 text-ellipsis">
-        <p className="font-semibold text-link my-2">{head}</p>
+        <p className="font-semibold text-link my-1">{head}</p>
         <p className="text-second">{descpt}</p>
         {extra && <p className="text-[14px] text-link">{extra}</p>}
       </div>
